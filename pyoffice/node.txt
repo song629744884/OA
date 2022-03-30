@@ -1,0 +1,64 @@
+python 模块
+time
+datetime  	#pip
+pymysql		#pip
+random		
+hashlib
+urllib
+json
+logging
+io
+sys
+socket
+requests
+re
+xlrd
+xlwt
+queue
+threading
+os.path
+unittest
+shutil
+redis
+itchat
+beautifulsoup
+
+Django模型Meta选项（常用）
+abstract   抽象基类 abstract = True
+app_label  声明它属于哪个应用程序   app_label = 'myapp'
+db_table    用于模型的数据库表的名称    db_table = 'music_album'
+managed
+默认为True，这意味着 Django 将在migrate迁移中或作为迁移的一部分创建适当的数据库表，并将它们作为flush管理命令的一部分删除。也就是说，Django 管理数据库表的生命周期。
+如果False，则不会对该模型执行数据库表的创建、修改或删除操作。如果模型表示现有表或已通过其他方式创建的数据库视图，这将很有用。这是 时的唯一区别managed=False。模型处理的所有其他方面与正常情况完全相同。
+order_with_respect_to   使该对象相对于给定字段可排序，通常是 a ForeignKey。
+ordering    对象的默认排序，用于获取对象列表时使用：    ordering = ['-order_date']
+indexes 您要在模型上定义的索引列表：
+index_together  一起索引的字段名称集：
+unique_together 一组字段名称加在一起必须是唯一的    unique_together = [['driver', 'restaurant']]
+为方便起见，unique_together在处理单个字段集时可以是单个列表 unique_together = ['driver', 'restaurant']
+verbose_name    对象的人类可读名称，单数    verbose_name = "pizza"
+verbose_name_plural 对象的复数名称：    verbose_name_plural = "stories"
+
+Django  form
+1 Using forms to validate data
+Form.clean()
+Form.is_valid()
+Form.errors
+Form.errors.as_data()
+Form.errors.as_json(escape_html=False)
+2 Initial form values
+Form.initial
+3 Checking which form data has changed
+Form.has_changed()
+Form.changed_data
+4 Accessing the fields from the form
+Form.fields
+5 Accessing “clean” data
+Form.cleaned_data
+6 Outputting forms as HTML
+Form.template_name
+Form.as_p()
+Form.as_ul()
+Form.as_table()
+Form.get_context()
+Form.render(template_name=None, context=None, renderer=None)

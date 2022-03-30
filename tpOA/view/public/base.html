@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>pyoffice</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="/static/css/element.css">
+    <link rel="stylesheet" href="/static/css/view.css">
+
+    <!-- Styles -->
+
+</head>
+{block name="style"}{/block}
+
+
+<body>
+<div id="app">
+    <el-container>
+        <el-header id="header">
+            <div class="head-div">
+                <div class="webname">pyoffice</div>
+                <div class="title"><span>|</span><label ><a style="color: aliceblue;text-decoration:none;" href="{:url('index/index')}">{$title}</a></label></div>
+                <div class="middiv"></div>
+                <div class="photo" id="user">
+                    <img src="{$me['pic']|default='/static/pic/default.jpg'}">
+                    <el-menu
+                            :default-active="activeIndex"
+                            class="el-menu-demo"
+                            mode="horizontal"
+                            @select="handleSelect"
+                            background-color="#464c5c"
+                            text-color="#fff"
+                            active-text-color="#ffd04b">
+                        <el-submenu index="1">
+                            <template slot="title">{$me['name']}</template>
+                            <el-menu-item index="1-1"><a style="color: aliceblue;text-decoration:none;" href="/oa/user/password/">修改密码</a></el-menu-item>
+                            <el-menu-item index="1-2" @click="loginOut">退出</el-menu-item>
+                        </el-submenu>
+                    </el-menu>
+                </div>
+            </div>
+        </el-header>
+        <el-container>
+            <el-aside width="200px" id="aside">
+                <el-menu
+                        default-active="1"
+                        class="el-menu-vertical-demo"
+                        @open="handleOpen"
+                        @close="handleClose">
+                    <el-submenu  v-for="menu in menus" :key="menu.index" :index="menu.index">
+
+                        <template slot="title">
+                            <i :class="menu.icon"></i>
+                            <span>{{ menu.name }}</span>
+                        </template>
+                        <template v-if="menu.child.length>0">
+                            <el-menu-item  v-for="item  in menu.child" :index="item.index" @click="routeTo(item.url)" :key="item.index">{{ item.name }}</el-menu-item>
+                        </template>
+
+                    </el-submenu>
+                </el-menu>
+            </el-aside>
+            <el-main id="main">
+                {block name="content"}{/block}
+            </el-main>
+        </el-container>
+    </el-container>
+    {block name="form"}{/block}
+</div>
+</body>
+<!-- import Vue before Element -->
+<script type="text/javascript" src="/static/js/vue.js" charset="utf-8"></script>
+<!-- import JavaScript -->
+<script type="text/javascript" src="/static/js/element.js" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/vue-resource.min.js" charset="utf-8"></script>
+<script>
+    function getCookie(name){  //获取cookie函数
+        name = name + "=";
+        var start = document.cookie.indexOf(name),
+            value = null;
+        if(start>-1){
+            var end = document.cookie.indexOf(";",start);
+            if(end == -1){
+                end = document.cookie.length;
+            }
+            value = document.cookie.substring(start+name.length,end);
+        }
+        return value;
+    }
+</script>
+{block name="script"}{/block}
+</html>
+
+
+
+

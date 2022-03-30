@@ -1,0 +1,704 @@
+2021-12-22 16:01:17,127 - root - INFO - False
+2021-12-22 16:01:37,983 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 16:01:37,985 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 16:01:39,205 - root - INFO - <tr><th><label for="id_pid">Pid:</label></th><td><ul class="errorlist"><li>This field is required.</li></ul><input type="number" name="pid" required id="id_pid"></td></tr>
+<tr><th><label for="id_name">Name:</label></th><td><ul class="errorlist"><li>This field is required.</li></ul><input type="text" name="name" maxlength="30" required id="id_name"></td></tr>
+<tr><th><label for="id_url">Url:</label></th><td><ul class="errorlist"><li>This field is required.</li></ul><input type="text" name="url" maxlength="255" required id="id_url"></td></tr>
+<tr><th><label for="id_status">Status:</label></th><td><ul class="errorlist"><li>This field is required.</li></ul><input type="number" name="status" required id="id_status"></td></tr>
+<tr><th><label for="id_idx">Idx:</label></th><td><ul class="errorlist"><li>This field is required.</li></ul><input type="number" name="idx" required id="id_idx"></td></tr>
+<tr><th><label for="id_icon">Icon:</label></th><td><ul class="errorlist"><li>This field is required.</li></ul><input type="text" name="icon" maxlength="255" required id="id_icon"></td></tr>
+2021-12-22 16:04:12,713 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\models.py changed, reloading.
+2021-12-22 16:04:12,715 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 16:10:45,072 - root - INFO - <tr><th><label for="id_pid">Pid:</label></th><td><ul class="errorlist"><li>This field is required.</li></ul><input type="number" name="pid" required id="id_pid"></td></tr>
+<tr><th><label for="id_name">Name:</label></th><td><ul class="errorlist"><li>This field is required.</li></ul><input type="text" name="name" maxlength="30" required id="id_name"></td></tr>
+<tr><th><label for="id_url">Url:</label></th><td><ul class="errorlist"><li>This field is required.</li></ul><input type="text" name="url" maxlength="255" required id="id_url"></td></tr>
+<tr><th><label for="id_icon">Icon:</label></th><td><ul class="errorlist"><li>This field is required.</li></ul><input type="text" name="icon" maxlength="255" required id="id_icon"></td></tr>
+2021-12-22 16:11:28,302 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 16:11:28,304 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 16:11:29,453 - root - INFO - False
+2021-12-22 16:11:29,473 - root - INFO - False
+2021-12-22 16:12:38,998 - root - INFO - False
+2021-12-22 16:13:55,961 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 16:13:55,963 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 16:13:59,037 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 16:14:24,261 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 16:16:24,792 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\form.py changed, reloading.
+2021-12-22 16:16:24,794 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 16:16:33,885 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 16:17:32,369 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\form.py changed, reloading.
+2021-12-22 16:17:32,371 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 16:17:37,508 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 16:19:05,335 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\form.py changed, reloading.
+2021-12-22 16:19:05,337 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 16:19:10,424 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 16:19:28,376 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 16:20:15,693 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 16:20:15,696 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 16:20:56,937 - root - INFO - <QueryDict: {}>
+2021-12-22 16:20:56,938 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 16:21:20,898 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 16:21:20,900 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 16:21:23,485 - root - INFO - None
+2021-12-22 16:21:23,487 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 16:54:05,776 - root - INFO - None
+2021-12-22 16:54:05,776 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 16:56:20,425 - root - INFO - None
+2021-12-22 16:56:20,425 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 16:56:56,168 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 16:56:56,170 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 16:56:58,098 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 68, in save
+    logging.info(request.POST.get())
+TypeError: get() missing 1 required positional argument: 'key'
+2021-12-22 16:57:07,803 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 16:57:07,804 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 16:57:10,455 - root - INFO - None
+2021-12-22 16:57:10,456 - root - INFO - None
+2021-12-22 16:57:10,456 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 16:59:55,465 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 16:59:55,467 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:00:00,287 - root - INFO - None
+2021-12-22 17:00:00,288 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 17:00:39,908 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 17:00:39,910 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:00:41,826 - root - INFO - None
+2021-12-22 17:00:41,827 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 17:04:07,132 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 17:04:07,133 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:04:12,889 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:04:12,892 - root - INFO - <ul class="errorlist"><li>pid<ul class="errorlist"><li>This field is required.</li></ul></li><li>name<ul class="errorlist"><li>This field is required.</li></ul></li><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li><li>icon<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 17:05:33,817 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 17:05:33,819 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:05:34,926 - root - INFO - <ul class="errorlist"><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 17:06:45,641 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 17:06:45,643 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:06:47,510 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:06:47,511 - root - INFO - False
+2021-12-22 17:06:47,511 - root - INFO - <ul class="errorlist"><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 17:07:14,593 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\form.py changed, reloading.
+2021-12-22 17:07:14,612 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:07:15,716 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:07:15,717 - root - INFO - False
+2021-12-22 17:07:15,717 - root - INFO - <ul class="errorlist"><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 17:08:37,405 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\form.py changed, reloading.
+2021-12-22 17:08:37,407 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:08:38,768 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:08:38,769 - root - INFO - False
+2021-12-22 17:08:38,769 - root - INFO - <ul class="errorlist"><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 17:09:41,585 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 17:09:41,588 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:09:42,682 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:09:42,700 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 75, in save
+    logging.info(form.cleaned_data)
+AttributeError: 'menuForm' object has no attribute 'cleaned_data'
+2021-12-22 17:10:04,420 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 17:10:04,422 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:10:05,702 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:10:05,702 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:10:05,703 - root - INFO - <ul class="errorlist"><li>id<ul class="errorlist"><li>This field is required.</li></ul></li><li>url<ul class="errorlist"><li>This field is required.</li></ul></li></ul>
+2021-12-22 17:11:01,678 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\form.py changed, reloading.
+2021-12-22 17:11:01,680 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:11:04,782 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:11:04,782 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:11:04,805 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 81, in save
+    data.created_at = datetime.datetime.today()
+AttributeError: 'dict' object has no attribute 'created_at'
+2021-12-22 17:11:35,274 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 17:11:35,275 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:11:40,327 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:11:40,328 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:11:40,468 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'status' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 82, in save
+    menu.objects.create(**data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 782, in save_base
+    updated = self._save_table(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 924, in _do_insert
+    return manager._insert(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1391, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'status' cannot be null")
+2021-12-22 17:13:21,064 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\form.py changed, reloading.
+2021-12-22 17:13:21,066 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:13:50,235 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:13:50,235 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:13:50,286 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'idx' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 82, in save
+    menu.objects.create(**data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 782, in save_base
+    updated = self._save_table(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 924, in _do_insert
+    return manager._insert(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1391, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'idx' cannot be null")
+2021-12-22 17:14:27,478 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\form.py changed, reloading.
+2021-12-22 17:14:27,548 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:14:29,722 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:14:29,723 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:14:29,768 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'idx' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 82, in save
+    menu.objects.create(**data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 782, in save_base
+    updated = self._save_table(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 924, in _do_insert
+    return manager._insert(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1391, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'idx' cannot be null")
+2021-12-22 17:14:38,660 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\form.py changed, reloading.
+2021-12-22 17:14:38,662 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:14:42,223 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:14:42,224 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:14:42,272 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'idx' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 82, in save
+    menu.objects.create(**data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 782, in save_base
+    updated = self._save_table(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 924, in _do_insert
+    return manager._insert(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1391, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'idx' cannot be null")
+2021-12-22 17:15:11,174 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\form.py changed, reloading.
+2021-12-22 17:15:11,176 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:16:39,399 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:16:39,400 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:16:39,444 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'idx' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 82, in save
+    menu.objects.create(**data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 782, in save_base
+    updated = self._save_table(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\base.py", line 924, in _do_insert
+    return manager._insert(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1391, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'idx' cannot be null")
+2021-12-22 17:17:32,292 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:17:32,292 - root - INFO - {'pid': '0', 'icon': 'el-icon-location', 'name': '个人', 'url': '', 'status': '1'}
+2021-12-22 17:17:32,329 - django.request - WARNING - Not Found: /menus/
+2021-12-22 17:17:57,731 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 17:17:57,733 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:18:41,748 - root - INFO - {'pid': '0', 'icon': 'el-icon-menu', 'name': '文章', 'url': '', 'status': '1'}
+2021-12-22 17:18:41,748 - root - INFO - {'pid': '0', 'icon': 'el-icon-menu', 'name': '文章', 'url': '', 'status': '1'}
+2021-12-22 17:18:41,786 - django.request - WARNING - Not Found: /oa/menus/
+2021-12-22 17:18:52,611 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-22 17:18:52,612 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-22 17:19:47,500 - root - INFO - {'pid': '0', 'icon': 'el-icon-document', 'name': '办公', 'url': '', 'status': '1'}
+2021-12-22 17:19:47,501 - root - INFO - {'pid': '0', 'icon': 'el-icon-document', 'name': '办公', 'url': '', 'status': '1'}
+2021-12-22 17:21:09,326 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 59, in save
+    menu_obj = menu.objects.get(id)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1248, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+2021-12-23 16:07:05,275 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 69, in save
+    menu_obj = menu.objects.get(id)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1248, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+2021-12-23 16:13:58,372 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-23 16:13:58,374 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 16:31:18,962 - root - INFO - {'pid': 1, 'icon': '', 'name': '用户列表', 'url': '/oa/user/index/', 'status': '1'}
+2021-12-23 16:31:18,963 - root - INFO - {'pid': 1, 'icon': '', 'name': '用户列表', 'url': '/oa/user/index/', 'status': '1'}
+2021-12-23 16:32:05,587 - root - INFO - {'pid': 1, 'icon': '', 'name': '个人信息', 'url': '', 'status': '1'}
+2021-12-23 16:32:05,587 - root - INFO - {'pid': 1, 'icon': '', 'name': '个人信息', 'url': '', 'status': '1'}
+2021-12-23 16:33:26,266 - root - INFO - {'pid': 2, 'icon': '', 'name': '文章分类', 'url': '', 'status': '1'}
+2021-12-23 16:33:26,266 - root - INFO - {'pid': 2, 'icon': '', 'name': '文章分类', 'url': '', 'status': '1'}
+2021-12-23 16:34:50,736 - root - INFO - {'pid': 2, 'icon': '', 'name': '文章列表', 'url': '', 'status': '1'}
+2021-12-23 16:34:50,736 - root - INFO - {'pid': 2, 'icon': '', 'name': '文章列表', 'url': '', 'status': '1'}
+2021-12-23 16:39:35,162 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 88, in save
+    menu_obj = menu.objects.get(id)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1248, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+2021-12-23 16:40:36,041 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-23 16:40:36,043 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 16:40:40,558 - django.request - ERROR - Internal Server Error: /oa/menu/save
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonCode\pyoffice\oa\menu.py", line 93, in save
+    data.save()
+AttributeError: 'dict' object has no attribute 'save'
+2021-12-23 16:42:22,969 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-23 16:42:22,971 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 16:43:04,157 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-23 16:43:04,160 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 16:45:49,454 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-23 16:45:49,460 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 16:46:45,346 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-23 16:46:45,348 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 16:53:44,203 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-23 16:53:44,205 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 16:57:57,214 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-23 16:57:57,218 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 16:58:46,040 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-23 16:58:46,042 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 17:00:23,266 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\models.py changed, reloading.
+2021-12-23 17:00:23,271 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 17:20:30,619 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-23 17:20:30,620 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 17:21:57,699 - root - INFO - {'pid': 1, 'icon': '', 'name': 'tets', 'url': '', 'status': '1'}
+2021-12-23 17:21:57,700 - root - INFO - {'pid': 1, 'icon': '', 'name': 'tets', 'url': '', 'status': '1'}
+2021-12-23 17:22:30,406 - django.utils.autoreload - INFO - D:\pythonCode\pyoffice\oa\menu.py changed, reloading.
+2021-12-23 17:22:30,407 - asyncio - DEBUG - Using proactor: IocpProactor
+2021-12-23 17:22:45,119 - root - INFO - {'pid': '0', 'icon': '', 'name': 'test', 'url': 'qqq', 'status': '1'}
+2021-12-23 17:22:45,119 - root - INFO - {'pid': '0', 'icon': '', 'name': 'test', 'url': 'qqq', 'status': '1'}
+2021-12-23 17:24:29,685 - root - INFO - {'pid': '0', 'icon': 'el-icon-setting', 'name': '设置', 'url': '', 'status': '1'}
+2021-12-23 17:24:29,685 - root - INFO - {'pid': '0', 'icon': 'el-icon-setting', 'name': '设置', 'url': '', 'status': '1'}
