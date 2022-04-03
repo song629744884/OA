@@ -1,0 +1,240 @@
+@extends('layouts.app')
+@section('style')
+<style>
+    .avatar-uploader .el-upload {
+      border: 1px dashed #d9d9d9;
+      border-radius: 6px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+    .avatar-uploader .el-upload:hover {
+      border-color: #409EFF;
+    }
+    .avatar-uploader-icon {
+      font-size: 28px;
+      color: #8c939d;
+      width: 178px;
+      height: 178px;
+      line-height: 178px;
+      text-align: center;
+    }
+    .avatar {
+      width: 178px;
+      height: 178px;
+      display: block;
+    }
+  </style>
+@endsection
+
+
+@section('content')
+<el-container style="background-color: #fff;">
+    <el-main >
+        <el-col :span="16">
+        <el-form ref="form" :model="form" :rules="editRules" required label-width="80px">
+            <el-form-item label="标题" required prop="title">
+                <el-input v-model="form.title"></el-input>
+            </el-form-item>
+            <el-form-item label="内容" required prop="content" >
+                <el-input v-model="form.content" type="textarea" :rows="8"></el-input>
+            </el-form-item>
+            <el-form-item label="类型" required prop="type_id">
+                <el-select v-model="form.type_id" placeholder="请选择">
+                    <el-option
+                      v-for="item in typeArr"
+                      :key="item.id"
+                      :label="item.name"
+                      :value="item.id">
+                    </el-option>
+                  </el-select>
+            </el-form-item>
+           
+            <el-form-item label="封面">
+                <el-upload
+                    class="avatar-uploader"
+                    action="{{ url('index/imgUpload') }}"
+                    :headers="header"
+                    :show-file-list="false"
+                    :on-success="handleAvatarSuccess"
+                    :before-upload="beforeAvatarUpload">
+                    <img v-if="form.pic" :src="form.pic" class="avatar">
+                    <i v-else class="el-icon-plus avatar-uploader-icon"></i>
+                    </el-upload>
+            </el-form-item>
+            <el-button type="primary" @click="onSubmit('form')">保存</el-button>
+            <el-button type="primary" @click="onBack()">返回</el-button>
+            </el-form-item>
+        </el-form>
+    </el-col>
+    </el-main>
+</el-container>
+@endsection
+
+
+@section('script')
+<script>
+    new Vue({
+        el: '#app',
+        data: function() {
+            return {
+            
+                menus:[],
+                activeIndex:'1',
+                myUserInfo:{},
+                form: {
+                    title: '',
+                    content:'',
+                    type_id:'',
+                    pic:'',
+                },
+                editRules: {
+                    title: [
+                        {required: true, message: '请输入标题', trigger: 'blur'},
+                        {min: 2, max: 20, message: '长度在 2 到 20 个字符', trigger: 'blur'}
+                    ],
+                    content: [
+                        {required: true, message: '请输入内容', trigger: 'blur'},
+                    ],
+                    type_id: [
+                        { required: true, message: '请选择分类', trigger: 'change' }
+                    ],
+                    
+                },
+                header:{'X-CSRFToken':''},
+                typeArr:[],
+                id:''
+            }
+        },
+        created(){
+            this.getMenu();
+            this.getTypeList();
+            this.id = '{{ $id }}'
+            console.log(this.id)
+            if(this.id){
+                this.getArticleInfo();
+            }
+
+            this.header['X-CSRF-TOKEN'] = '{{ csrf_token() }}'
+        },
+        methods: {
+            getMenu(){
+                let that = this;
+                this.$http.get("{{ url('menu/menuList') }}").then(function(res){
+                    if (res.status == '200') {
+                        that.menus = res.body;
+                    }
+                },function(){
+                    console.log('请求失败处理');
+                });
+            },
+            loginOut: function () {
+                let that = this;
+                // var DjangoCookie = getCookie('csrftoken');
+                that.$http.post("{{ url('index/logout') }}",'',{headers:{'X-CSRF-TOKEN':'{{ csrf_token() }}'}}).then(function(res){
+                    if (res.body.code == '1') {
+                        location.href="{{ url('index/login') }}";
+                    }else{
+                        that.$message({
+                            type: 'error',
+                            message: res.body.msg
+                        });
+                    }
+                },function(res){
+                    console.log(res);
+                });
+            },
+            
+            routeTo(route){
+                //console.log(route);
+                location.href='/index.php/'+route;
+            },
+            handleAvatarSuccess(res, file) {
+                console.log(res)
+                console.log(file)
+                this.form.pic = res;
+                // this.form.pic = URL.createObjectURL(file.raw);
+            },
+            beforeAvatarUpload(file) {
+                const isJPG = file.type === 'image/jpeg';
+                const isLt2M = file.size / 1024 / 1024 < 2;
+
+                if (!isJPG) {
+                this.$message.error('上传头像图片只能是 JPG 格式!');
+                }
+                if (!isLt2M) {
+                this.$message.error('上传头像图片大小不能超过 2MB!');
+                }
+                return isJPG && isLt2M;
+            },
+            getTypeList(){
+                    let that = this;
+                    this.$http.get("{{ url('article_type/data') }}").then(function(res){
+                        if (res.status == '200') {
+                            that.typeArr = res.body;
+                        }
+                    },function(){
+                        console.log('请求失败处理');
+                    });
+                },
+            getArticleInfo(){
+                    let that = this;
+                    this.$http.get("{{ url('article/read') }}",{params:{id:that.id}}).then(function(res){
+                        if (res.body.code == '1') {
+                            that.form = res.body.data;
+                        }
+                    },function(){
+                        console.log('请求失败处理');
+                    });
+                },
+            onSubmit: function (formName) {
+                    let that = this;
+                    //var DjangoCookie = getCookie('csrftoken');
+                    that.$refs[formName].validate((valid) => {
+                        if (valid) {
+                            that.$http.post('save',that.form,{headers:{'X-CSRF-TOKEN':'{{ csrf_token() }}'}}).then(function(res){
+                                console.log(res);
+                                if (res.body.code == '1') {
+                                    that.$message({
+                                        type: 'success',
+                                        message: res.body.msg
+                                    });
+                                    location.href="{{ url('article/index') }}"
+                                    //that.getArticleInfo();
+                                    //etTimeout(_ => that.$refs.form.clearValidate(), 10);
+                                }else{
+                                    that.$message({
+                                        type: 'error',
+                                        message: res.body.msg
+                                    });
+                                }
+                            },function(res){
+                                console.log(res);
+                            });
+                        } else {
+                            console.log('error submit!!');
+                            return false;
+                        }
+                    });
+                },
+            onBack(){
+                history.back()
+            },
+            handleSelectionChange(val) {
+                this.multipleSelection = val;
+                console.log("multipleSelection", val);
+            },
+            handleSelect(key, keyPath) {
+                console.log(key, keyPath);
+            },
+            handleOpen(key, keyPath) {
+                console.log(key, keyPath);
+            },
+            handleClose(key, keyPath) {
+                console.log(key, keyPath);
+            },
+           
+        }
+    })
+</script>
+@endsection
